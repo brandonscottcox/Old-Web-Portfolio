@@ -31,6 +31,10 @@ p {
   margin-top: -100px;
 }
 
+footer {
+  text-align: left;
+}
+
 /* -----------------------------Nav------------------------- */
 
 nav {
@@ -60,10 +64,6 @@ color:#e9d30eab
 
 nav a:last-of-type {
   margin-right: 20px;
-}
-
-footer{
-  text-align: left
 }
 
 /*--------------Classes----------------------------------*/
