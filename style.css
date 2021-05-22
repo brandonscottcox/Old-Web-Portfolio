@@ -2,23 +2,11 @@ html {
   min-height: 100%;
 }
 
-body {
-  background-image: url(images/Architect.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left top;
-  min-height: 100%;
-}
- 
-.imageContainer {
-  text-align: center;
-}
-
-img {
-  width: 50%;
-  text-align: center;
+header img {
+  width: 29%;
   border-radius: 50%;
-  margin-top: 90px
+  margin-top: 210px;
+  margin-left: 10px
 }
  
 h1 {
@@ -26,7 +14,7 @@ h1 {
   font-size: 64px;
   color: #bea841;
   text-align: center;
-  margin-top: 5px
+  margin-top: -5px
 }
 
 h2 {
@@ -36,28 +24,30 @@ h2 {
   text-align: center;
 }
  
-p, li {
+p {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #ffffff;
+  margin-top: -100px;
 }
 
 /* -----------------------------Nav------------------------- */
 
 nav {
+  margin-left: 35px;
+  text-align: center;
 }
 
 nav a {
-  text-decoration: none;
   margin-right: 40px;
-  font-size: 18px;
+  font-size: 20px;
   color: #8f99a4;
   font-family: Quattrocento, sans-serif;
 
 }
 
 nav a:visited{
-  color:#5eaef0ab
+  color:#3c7c7eab
 }
 
 nav a:hover {
@@ -74,4 +64,56 @@ nav a:last-of-type {
 
 footer{
   text-align: left
+}
+
+/*--------------Classes----------------------------------*/
+
+.home{
+  text-align: center;
+  color: rgb(181, 182, 165)
+}
+
+.imageContainer {
+  text-align: center;
+  position: absolute;
+}
+
+.body {
+  background-image: url(images/Architect.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  min-height: 100%;
+  padding-bottom: 220px;
+  position: absolute;
+}
+
+.bubble{
+  text-align: right;
+  margin-right: 170px;
+  margin-top: -130px
+}
+
+.bubbletext1 {
+ margin-left: 380px;
+ margin-top: -175px;
+ font-size: 14px;
+}
+
+.bubbletext2 {
+ margin-left: 380px;
+ margin-top: -10px;
+ font-size: 14px
+}
+
+.bubbletext3{
+ margin-top: 20px;
+ margin-left: 380px;
+ font-size: 14px
+}
+
+.bubbletext4{
+ margin-top: -10px;
+ margin-left: 380px;
+ font-size: 14px
 }
