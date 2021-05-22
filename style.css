@@ -5,6 +5,9 @@ html {
 body {
   background-image: url(images/Architect.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  min-height: 100%;
 }
  
 .imageContainer {
@@ -67,4 +70,8 @@ color:#e9d30eab
 
 nav a:last-of-type {
   margin-right: 20px;
+}
+
+footer{
+  text-align: left
 }
